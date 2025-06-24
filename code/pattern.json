@@ -1,0 +1,72 @@
+{
+    "EG": {
+        "name": "My Escape Game"
+    },
+    "Rooms": [
+        {
+            "id": "Start",
+            "players_in_front": [],
+            "players_in": [],
+            "position": [
+                0,
+                0
+            ],
+            "puzzles": [
+                {
+                    "id": "",
+                    "taxonomy": "",
+                    "rewards": [],
+                    "description": "",
+                    "meta": "",
+                    "found": false,
+                    "position": []
+                }
+            ],
+            "clues": [
+                {
+                    "id": "",
+                    "puzzle_id": "",
+                    "description": "",
+                    "meta": "",
+                    "found": false,
+                    "position": []
+                }
+            ] 
+        },
+        {
+            "id": "Exit",
+            "players_in_front": [],
+            "players_in": [],
+            "position": [
+                0,
+                0
+            ]
+        }
+    ],
+    "Doors": [
+        {
+            "id": "",
+            "connexion": [
+                "",
+                ""
+            ],
+            "opened": false,
+            "position_start": [],
+            "position_end": []
+        }
+    ],
+    "Players": [
+        {
+            "name": "",
+            "skills": [],
+            "inventory": [],
+            "knowledge": [],
+            "position": []
+        }
+    ],
+    "Actions": [
+        {
+            "id": ""
+        }
+    ]
+}

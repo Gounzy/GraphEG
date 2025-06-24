@@ -1,0 +1,233 @@
+{
+    "EG": {
+        "name": "Escape Game n\u00c2\u00b01"
+    },
+    "Rooms": [
+        {
+            "id": "Start",
+            "players_in_front": [
+                "Marc",
+                "Luc"
+            ],
+            "players_in": [],
+            "position": [0,0],
+            "puzzles": [
+                {
+                    "id": "P1",
+                    "taxonomy": "",
+                    "rewards": [
+                        "D2 true"
+                    ],
+                    "description": "",
+                    "meta": "",
+                    "found": false,
+                    "position": []
+                }
+            ],
+            "clues": [
+                {
+                    "id": "C1.1",
+                    "puzzle_id": "P1",
+                    "description": "info",
+                    "meta": "",
+                    "found": false,
+                    "position": []
+                },
+                {
+                    "id": "C2.2",
+                    "puzzle_id": "P2",
+                    "description": "item",
+                    "meta": "",
+                    "found": false,
+                    "position": []
+                },
+                {
+                    "id": "C3.1",
+                    "puzzle_id": "P3",
+                    "description": "item",
+                    "meta": "",
+                    "found": false,
+                    "position": []
+                }
+            ]
+        },
+        {
+            "id": "R2",
+		"players_in_front": [],
+            "players_in": [],
+            "position": [0,0],
+            "puzzles": [],
+            "clues": [
+                {
+                    "id": "C1.2",
+                    "puzzle_id": "P1",
+                    "description": "info",
+                    "meta": "",
+                    "found": false,
+                    "position": []
+                },
+                {
+                    "id": "C1.3",
+                    "puzzle_id": "P1",
+                    "description": "info",
+                    "meta": "",
+                    "found": false,
+                    "position": []
+                },
+                {
+                    "id": "C3.2",
+                    "puzzle_id": "P3",
+                    "description": "item",
+                    "meta": "",
+                    "found": false,
+                    "position": []
+                }
+            ]
+        },
+        {
+            "id": "R3",
+		"players_in_front": [],
+            "players_in": [],
+            "position": [0,0],
+            "puzzles": [
+                {
+                    "id": "P2",
+                    "taxonomy": "",
+                    "rewards": [
+                        "C3.4 (item)"
+                    ],
+                    "description": "",
+                    "meta": "",
+                    "found": false,
+                    "position": []
+                },
+                {
+                    "id": "P3",
+                    "taxonomy": "",
+                    "rewards": [
+                        "D3 true"
+                    ],
+                    "description": "",
+                    "meta": "",
+                    "found": false,
+                    "position": []
+                }
+            ],
+            "clues": [
+                {
+                    "id": "C3.3",
+                    "puzzle_id": "P3",
+                    "description": "item",
+                    "meta": "",
+                    "found": false,
+                    "position": []
+                },
+                {
+                    "id": "C2.1",
+                    "puzzle_id": "P2",
+                    "description": "info",
+                    "meta": "",
+                    "found": false,
+                    "position": []
+                }
+            ]
+        },
+        {
+            "id": "Exit",
+		"players_in_front": [],
+            "players_in": [],
+            "position": [0,0],
+            "puzzles": [],
+            "clues": []
+        }
+    ],
+    "Doors": [
+        {
+            "id": "D1",
+            "connexion": [
+                "Start",
+                "R2"
+            ],
+            "opened": true,
+            "position_start": [],
+            "position_end": []
+        },
+        {
+            "id": "D2",
+            "connexion": [
+                "Start",
+                "R3"
+            ],
+            "opened": false,
+            "position_start": [],
+            "position_end": []
+        },
+        {
+            "id": "D3",
+            "connexion": [
+                "R3",
+                "Exit"
+            ],
+            "opened": false,
+            "position_start": [],
+            "position_end": []
+        }
+    ],
+    "Players": [
+        {
+            "name": "Marc",
+            "skills": [],
+            "inventory": [],
+            "knowledge": [],
+            "position": []
+        },
+        {
+            "name": "Luc",
+            "skills": [],
+            "inventory": [],
+            "knowledge": [],
+            "position": []
+        }
+    ],
+    "Actions": [
+        {
+            "id": "Interact",
+            "time_to_do_it": 0
+        },
+        {
+            "id": "Inspect",
+            "time_to_do_it": 0
+        },
+        {
+            "id": "Take",
+            "time_to_do_it": 0
+        },
+        {
+            "id": "Resolve",
+            "time_to_do_it": 0
+        },
+        {
+            "id": "Share",
+            "time_to_do_it": 0
+        },
+        {
+            "id": "Move",
+            "time_to_do_it": 0
+        },
+        {
+            "id": "Exit",
+            "time_to_do_it": 0
+        },
+        {
+            "id": "Save",
+            "time_to_do_it": 0
+        }
+    ],
+    "Effects": [
+        {
+            "id": "",
+            "description": "",
+            "time_to_do_it": 0
+        }
+    ]
+}

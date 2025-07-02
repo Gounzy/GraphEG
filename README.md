@@ -16,7 +16,7 @@ These graph types provide complementary insights into the game design, making th
 
 
 
-# Installer le projet
+# Install
 
 To use the software, users can simply retrieve the source code via the following Git command:
 `git clone https://github.com/Gounzy/GraphEG.git`
